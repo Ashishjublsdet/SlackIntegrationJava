@@ -1,6 +1,15 @@
 # SlackIntegrationJava
 Slack Integration and perform Some Actions
 
+Slack Integration 
+
+Create token From Slack API
+
+token -> Add Slack token in local.properties
+
+BaseURL -> Add Base_URL in local.properties
+
+
 Steps :-
 
 1.Clone Repository
@@ -10,10 +19,5 @@ Steps :-
 
 
 
-Slack Integration 
 
-Create token From Slack API
-
-token -> Add Slack token in local.properties
-BaseURL -> Add Base_URL in local.properties
 
