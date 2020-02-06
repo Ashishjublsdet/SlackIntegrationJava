@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[test = [Pass]<br>]]>
+    </line>
+    <line>
+      <![CDATA[VALIDATE_CREATE_CHANNEL = [Pass]<br>]]>
+    </line>
+    <line>
+      <![CDATA[VALIDATE_JOIN_CREATED_CHANNEL = [Pass]<br>]]>
+    </line>
+    <line>
+      <![CDATA[VALIDATE_RENAME_CHANNEL = [Pass]<br>]]>
+    </line>
+    <line>
+      <![CDATA[VALIDATE_LIST_OF_CHANNEL = [Pass]<br>]]>
+    </line>
+    <line>
+      <![CDATA[VALIDATE_ARCHIVE_CHANNEL = [Pass]<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Slack Integration Java" duration-ms="3947" started-at="2020-02-06T05:32:04Z" finished-at="2020-02-06T05:32:08Z">
+    <groups>
+    </groups>
+    <test name="SlackIntegration" duration-ms="3947" started-at="2020-02-06T05:32:04Z" finished-at="2020-02-06T05:32:08Z">
+      <class name="com.pilvotest.SlackIntegration">
+        <test-method status="PASS" signature="InitVariables()[pri:0, instance:com.pilvotest.SlackIntegration@566776ad]" name="InitVariables" is-config="true" duration-ms="117" started-at="2020-02-06T11:02:04Z" finished-at="2020-02-06T11:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitVariables -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.pilvotest.SlackIntegration@566776ad]" name="test" duration-ms="113" started-at="2020-02-06T11:02:04Z" finished-at="2020-02-06T11:02:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test = [Pass]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="VALIDATE_CREATE_CHANNEL()[pri:1, instance:com.pilvotest.SlackIntegration@566776ad]" name="VALIDATE_CREATE_CHANNEL" duration-ms="1863" started-at="2020-02-06T11:02:04Z" description="Validate Create channels Slack API" finished-at="2020-02-06T11:02:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VALIDATE_CREATE_CHANNEL = [Pass]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_CREATE_CHANNEL -->
+        <test-method status="PASS" signature="VALIDATE_JOIN_CREATED_CHANNEL()[pri:2, instance:com.pilvotest.SlackIntegration@566776ad]" name="VALIDATE_JOIN_CREATED_CHANNEL" duration-ms="349" started-at="2020-02-06T11:02:06Z" description="Validate Join api of Slack channels" finished-at="2020-02-06T11:02:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VALIDATE_JOIN_CREATED_CHANNEL = [Pass]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_JOIN_CREATED_CHANNEL -->
+        <test-method status="PASS" signature="VALIDATE_RENAME_CHANNEL()[pri:3, instance:com.pilvotest.SlackIntegration@566776ad]" name="VALIDATE_RENAME_CHANNEL" duration-ms="426" started-at="2020-02-06T11:02:07Z" description="Validate Rename the Channel of Slack API" finished-at="2020-02-06T11:02:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VALIDATE_RENAME_CHANNEL = [Pass]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_RENAME_CHANNEL -->
+        <test-method status="PASS" signature="VALIDATE_LIST_OF_CHANNEL()[pri:4, instance:com.pilvotest.SlackIntegration@566776ad]" name="VALIDATE_LIST_OF_CHANNEL" duration-ms="399" started-at="2020-02-06T11:02:07Z" description="Validate List of channels" finished-at="2020-02-06T11:02:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VALIDATE_LIST_OF_CHANNEL = [Pass]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_LIST_OF_CHANNEL -->
+        <test-method status="PASS" signature="VALIDATE_ARCHIVE_CHANNEL()[pri:5, instance:com.pilvotest.SlackIntegration@566776ad]" name="VALIDATE_ARCHIVE_CHANNEL" duration-ms="394" started-at="2020-02-06T11:02:08Z" description="Validate Archive the Channel of Slack API" finished-at="2020-02-06T11:02:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VALIDATE_ARCHIVE_CHANNEL = [Pass]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_ARCHIVE_CHANNEL -->
+      </class> <!-- com.pilvotest.SlackIntegration -->
+    </test> <!-- SlackIntegration -->
+  </suite> <!-- Slack Integration Java -->
+</testng-results>
