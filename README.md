@@ -23,7 +23,7 @@ BaseURL -> Add Base_URL in local.properties
 Steps :-
 
 ```
-Run Command :  mvn clean install -D suiteXmlFile=SlackIntegration.xml in Terminal
+Run Command :  mvn clean install -D suiteXmlFile=SlackIntegration.xml 
 ```
 
 
